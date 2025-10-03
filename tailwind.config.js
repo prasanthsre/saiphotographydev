@@ -6,11 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-       animation: {
-        "spin-slow": "spin 1s linear infinite",   // custom slow spin
-        "spin-slower": "spin 1s linear infinite", // even slower if needed
+      animation: {
+        "spin-slow": "spin 2s linear infinite",   // slower spin
+        "spin-slower": "spin 4s linear infinite", // even slower spin
       },
     },
   },
   plugins: [],
-}
+};

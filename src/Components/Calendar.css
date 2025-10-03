@@ -1,0 +1,42 @@
+/* calendar.css */
+
+/* Remove react-calendar default look */
+.react-calendar {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+}
+
+/* Day tiles */
+.react-calendar__tile {
+  padding: 0.75rem;
+  border-radius: 9999px; /* fully rounded */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.react-calendar__tile:hover {
+  background: #f3f4f6; /* light gray */
+}
+
+/* Selected day */
+.selected-date {
+  background: #22c55e !important; /* green */
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Booked dates */
+.booked-date {
+  background: #f97316 !important; /* orange */
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Weekdays (Mon–Sun) */
+.react-calendar__month-view__weekdays {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #6b7280;
+}
